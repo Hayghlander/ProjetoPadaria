@@ -2,6 +2,7 @@
 
 Projeto final da matéria de beckend no meu curso de ADS, feito em Django. 
 
+https://github.com/Hayghlander/ProjetoPadaria/blob/main/LICENSE
 
 # Sobre o projeto
 
