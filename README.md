@@ -9,7 +9,8 @@ https://github.com/Hayghlander/ProjetoPadaria/blob/main/LICENSE
 Site para uma padaria fictícia para que fosse possível solucionar alguns problemas que a nova diretoria estava enfrentando, 
 como filas longas e o cliente ter que se deslocar até a padaria para comprar.
 
-# Página Inicial
+# Navegando no site
+
 
 
 # Tecnologias utilizadas
