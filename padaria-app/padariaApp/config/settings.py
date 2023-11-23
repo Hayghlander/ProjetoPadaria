@@ -6,7 +6,6 @@
 import os
 from pathlib import Path
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-wxy+7v7j#xolrsg&z-xb@lwt00@4qrhl*4j)iq-4owbolg5u4d'
@@ -15,6 +14,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CMS_COLOR_SCHEME = 'dark'
+
+APPEND_SLASH = False
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -22,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'easy_thumbnails',
 ]
 
 LOCALS_APPS = [
@@ -53,6 +57,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # apps
+                'core.context_processors.categories',
             ],
         },
     },
@@ -89,3 +95,10 @@ STATICFILES_DIRS = [BASE_DIR / 'core/templates/static',]
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Thumbnails
+THUMBNAIL_ALIASES = {
+    '': {
+        'product_image': {'size': (285, 160), 'crop': True},
+    },
+}

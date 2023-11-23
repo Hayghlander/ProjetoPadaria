@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% load thumbnail %}
+
+{% block title %}
+    {{ product }} | {{ block.super }}
+{% endblock %}
+
+{% block container %}
+<div class="container" style="margin-top: 150px;margin-bottom: 150px;">
+    <div class="page-header" style="margin-top: 150px;margin-bottom: 50px;">
+        <h1>{{ product }}</h1>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            {% if product.image %}
+                <img src="{{ product.image|thumbnail_url:'product_image' }}" alt="" />
+            {% else %}
+                s<img src="http://placehold.it/350x250" alt="" />
+            {% endif %}
+        </div>
+    <div class="col-4">
+        <p class="text-right">
+            <a href="#" class="btn btn-success">Adicionar ao Carrinho</a>
+        </p>
+        {{ product.description|linebreaks }}
+    </div>
+    </div>
+</div>
+{% endblock %}

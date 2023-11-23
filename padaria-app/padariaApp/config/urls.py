@@ -8,8 +8,8 @@ admin.site.site_title = "Padoca do Hay"
 admin.site.index_title = "Sistema de gerenciamento de padaria"
 
 urlpatterns = [
-    path('', include('core.urls', namespace='core')),
     path('admin/', admin.site.urls),
+    path('', include('core.urls', namespace='core')),
 ]
 
 if settings.DEBUG:
