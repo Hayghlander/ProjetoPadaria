@@ -1,0 +1,528 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block container  %}
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+        <div class="about-img">
+          <img src="{% static 'images/eb63f171dfa625e4de50cde8e646617c.jpg' %}" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <h3>
+          Bem-vindo à Padoca Goiana: Onde o Sabor Encontra a Tradição
+        </h3>
+       
+        <ul>
+          <li><i class="bi bi-check-circle"></i> Presamos pela qualidade</li>
+          <li><i class="bi bi-check-circle"></i> Valorizamos nossos clientes</li>
+          <li><i class="bi bi-check-circle"></i> Você vem até nós ou nós vamos até você</li>
+        </ul>
+        <p>
+          Havia uma pequena cidade. A história da Padoca Goiana começou há uma década, quando Dona Deusdália, uma senhora cheia de sabedoria culinária, 
+          decidiu abrir uma pequena quitanda para venda de bolos e pães. A fama da Padoca Goiana se dá pela qualidade,e tradição caipira e goiana. Ao entrar na Padoca Goiana,
+          você estará envolvido pelo aroma delicioso do pão fresco saindo do forno, pelos bolos recém-assados ​​que despertam a nostalgia. Sinta o calor do cerrado. 
+          Sinta o sabor da tradição. Bem-vindo à Padoca Goiana, onde cada pedaço é único.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+<!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+    
+      <p>Porque escolher nossa padoca</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="box" data-aos="zoom-in" data-aos-delay="100">
+          <span>01</span>
+          <h4>Qualidade</h4>
+          <p>Nossos produtos são feitos com os melhores igredientes, os mais orgânicos e naturais possíveis.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="box" data-aos="zoom-in" data-aos-delay="200">
+          <span>02</span>
+          <h4>Acessibilidade</h4>
+          <p>Chega de filas longas para comprar o pãozinho, aqui vocÊ faz o pedido e entregamos até você.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="box" data-aos="zoom-in" data-aos-delay="300">
+          <span>03</span>
+          <h4> Valorização dos clientes</h4>
+          <p>Nossos clientes sempre retornam pois sabem que na Padoca Goiana comem um bom pão caseiro com café entre família</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Why Us Section -->
+
+<!-- ======= Menu Section ======= -->
+<section id="menu" class="menu section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Menu</h2>
+      <p>Confira nosso saboroso cardápio</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="menu-flters">
+          <li data-filter="*" class="filter-active">Desfrute de nossas delícias</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/baguete.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Baguete</a><span>R$ 25,00 / kg</span>
+        </div>
+        <div class="menu-ingredients">
+          Baguete caipira feita pela vovó
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/bread-barrel.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Pão doce</a><span>R$ 26,00 / kg</span>
+        </div>
+        <div class="menu-ingredients">
+          Delicioso pão doce caseiro.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/cake.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Cake</a><span>R$ 10,00 / un</span>
+        </div>
+        <div class="menu-ingredients">
+          Delicado cake feito com igredientes da roça.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/pao.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Pão de forma</a><span>R$ 10,00 / un</span>
+        </div>
+        <div class="menu-ingredients">
+          Pão de forma caseiro, feito na roça.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/Paodesal.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Pão de sal</a><span>R$ 15,00 / kg</span>
+        </div>
+        <div class="menu-ingredients">
+          Tradicional pãozinho de sal.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/cafe.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Café</a><span>R$ 10,00 / un</span>
+        </div>
+        <div class="menu-ingredients">
+          Delicioso cafezinho caseiro.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/capuccino.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Capuccino</a><span>R$ 10,00 / un</span>
+        </div>
+        <div class="menu-ingredients">
+          Delicioso capuccino, para acompanhar uma boa torta.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/cha.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Chá</a><span>R$ 8,00 / un</span>
+        </div>
+        <div class="menu-ingredients">
+          Tradicional chazinho da tarde.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/salgadinho.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Salgadinho</a><span>R$ 40,00 / cento</span>
+        </div>
+        <div class="menu-ingredients">
+          Salgados variados, coxinha com frango caipira, enroladinho de salsicha caseira, churros com doce de leite da roça.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/tortachocolate.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Torta de chocolate</a><span>R$ 15,00 fatia / R$ 100,00 torta completa</span>
+        </div>
+        <div class="menu-ingredients">
+          Torta de chocolate.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/tortamorango.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Torta morango</a><span>R$ 18,00 / kg</span>
+        </div>
+        <div class="menu-ingredients">
+          Torta de morango.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/docecaseiro.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Doce de leite caseiro da vovó</a><span>R$ 15,00 / pote</span>
+        </div>
+        <div class="menu-ingredients">
+          Doce de leite da roça.
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-active">
+        <img src="{% static 'images/menu/bolofuba.jpg' %}" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Bolo de fubá</a><span>R$ 35,00</span>
+        </div>
+        <div class="menu-ingredients">
+          Tradiconal bolo de fubá.
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section><!-- End Menu Section -->
+
+<!-- ======= Specials Section ======= -->
+<section id="specials" class="specials">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Sal</h2>
+      <p>Confira nosso especial de pratos executivos</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-3">
+        <ul class="nav nav-tabs flex-column">
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Strogonoff de salmão</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Salada tropical</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Macarronada da mamãe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Ravioli de gorgonzola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Salada de frutas rústica</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-9 mt-4 mt-lg-0">
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Strogonoff de salmão</h3>
+                <p class="fst-italic">O tradicional Strogonoff mas esse traz consigo um igrediente diferente, o salmão. Também acompanha arroz branco colhido em nossa fazenda, e uma saladinha</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="{% static 'images/specials-1.png' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Salada tropical</h3>
+                <p class="fst-italic">Deliciosa salada tropical</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="{% static 'images/specials-2.png' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Tradicional macarronada da mamãe.</h3>
+                <p class="fst-italic">Acompanha molho de carne, ou creme branco.</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="{% static 'images/specials-3.png' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Ravioli de queijo</h3>
+                <p class="fst-italic">Ravioli com creme de queijo gorgonzola</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="{% static 'images/specials-4.png' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-5">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Salada de frutas rústica</h3>
+                <p class="fst-italic">Salada de frutas variada, você escolhe as frutas, montada de um jeitinho bem raiz</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="{% static 'images/specials-5.png' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Specials Section -->
+
+<!-- ======= Events Section ======= -->
+<section id="events" class="events">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Eventos</h2>
+      <p>Organize sua festa de aniversário ou confraternização</p>
+    </div>
+
+    <div >
+
+        <div class="swiper-slide">
+          <div class="row event-item">
+            <div class="col-lg-6">
+              <img src="{% static 'images/event-birthday.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+              <h3>Comemore aqui</h3>
+              <div class="price">
+              </div>
+              <p class="fst-italic">
+               Faça sua comemoração de aniversário ou confraternização de amigos conosco, temos um espaço para 50 pessoas, além de opção com buffet incluso.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+  </div>
+</section><!-- End Events Section -->
+
+<!-- ======= Book A Table Section ======= -->
+<section id="book-a-table" class="book-a-table">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Reservas</h2>
+      <p>Cadastre os dados da reserva</p>
+    </div>
+
+    <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 form-group">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Informe seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Informe seu Email" data-rule="email" data-msg="Please enter a valid email">
+          <div class="validate"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+          <input type="text" class="form-control" name="phone" id="phone" placeholder="Informe seu telefone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 form-group mt-3">
+          <input type="text" name="date" class="form-control" id="date" placeholder="Data" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 form-group mt-3">
+          <input type="text" class="form-control" name="time" id="time" placeholder="Horário" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 form-group mt-3">
+          <input type="number" class="form-control" name="people" id="people" placeholder="Quantidade de pessoas" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+          <div class="validate"></div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <textarea class="form-control" name="message" rows="5" placeholder="Observações / Após concluir a reserva, entraremos em contato."></textarea>
+        <div class="validate"></div>
+      </div>
+      <div class="mb-3">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+      </div>
+      <div class="text-center"><button type="submit">reservar</button></div>
+    </form>
+
+  </div>
+</section><!-- End Book A Table Section -->
+
+
+<!-- ======= Gallery Section ======= -->
+<section id="gallery" class="gallery">
+
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Galeria de fotos</h2>
+      <p>Venha desfrutar da nossa padoca pessoalmente em uma experiência incrível, ou desfrute de nossas delícias de onde estiver</p>
+    </div>
+  </div>
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-0">
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'images/gallery/gallery-1.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'images/gallery/gallery-1.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'images/gallery/gallery-2.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'images/gallery/gallery-2.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'images/gallery/gallery-4.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'images/gallery/gallery-4.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'images/gallery/gallery-7.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'images/gallery/gallery-7.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="{% static 'images/gallery/gallery-8.jpg' %}" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="{% static 'images/gallery/gallery-8.jpg' %}" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Gallery Section -->
+
+
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Contato</h2>
+      <p>Contate-nos</p>
+    </div>
+  </div>
+
+  <div data-aos="fade-up">
+    <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.955173244572!2d-47.339614089534635!3d-15.54053361669261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9350a373a52c8cab%3A0xc040faefc8e68165!2sFormosa!5e0!3m2!1spt-BR!2sbr!4v1700689347226!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="container" data-aos="fade-up">
+
+    <div class="row mt-5">
+
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Localização:</h4>
+            <p>Avenida Visconde de Porto Seguro - Formosa GO</p>
+          </div>
+
+          <div class="open-hours">
+            <i class="bi bi-clock"></i>
+            <h4>Aberto:</h4>
+            <p>
+              Todos os dias:<br>
+              11:00 AM - 22:00 PM
+            </p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>PadocaGoiana@gmail.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Telefone:</h4>
+            <p>6198233-32455</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Contact Section -->
+
+
+{% endblock container %}
