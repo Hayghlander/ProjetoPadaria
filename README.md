@@ -13,8 +13,6 @@ como filas longas e o cliente ter que se deslocar até a padaria para comprar.
 
 ![imagem1](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/cb2209a3-9980-4348-ab71-00d85dc7699e)
 ![imagem2](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/e11fa196-e28b-4dc4-91e1-220cf7d122b7)
-![imagem3 0](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/b7bf7d9d-41d3-45f9-8bad-484570920fd8)
-![imagem3 1](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/f586709a-17bd-4005-b655-5bd2389272fa)
 ![imagem3 2](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/3e56329c-23d7-4f74-b8f8-1fa8a58b38a7)
 ![imagem3](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/553925b7-0419-4f9c-8d98-a9449cc92c55)
 ![imagem4](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/39716ba9-09f8-4b37-87f4-26424ad57b4d)
@@ -31,6 +29,8 @@ como filas longas e o cliente ter que se deslocar até a padaria para comprar.
 ![imagem16](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/0b0d36e8-41ff-4387-9c37-54a848faeaef)
 ![imagem17](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/e949f81e-4ac0-4fa7-b9f8-9b210375abd3)
 ![imagem18](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/821dd5f3-3b3b-443b-8549-aa40a9a9f560)
+![imagem3 0](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/b7bf7d9d-41d3-45f9-8bad-484570920fd8)
+![imagem3 1](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/f586709a-17bd-4005-b655-5bd2389272fa)
 
 # Tecnologias utilizadas
 
