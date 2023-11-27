@@ -1,6 +1,6 @@
 # ProjetoPadaria
 
-Projeto final da matéria de construção de beckend no meu curso de Analise e desenvolvimento de sistemas.
+Projeto final da matéria de construção de beckend no meu curso de Analise e Desenvolvimento de Sistemas.
 
 https://github.com/Hayghlander/ProjetoPadaria/blob/main/LICENSE
 
