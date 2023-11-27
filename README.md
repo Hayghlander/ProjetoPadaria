@@ -28,6 +28,7 @@ como filas longas e o cliente ter que se deslocar até a padaria para comprar.
 ![imagem16](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/0b0d36e8-41ff-4387-9c37-54a848faeaef)
 ![imagem17](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/e949f81e-4ac0-4fa7-b9f8-9b210375abd3)
 ![imagem18](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/821dd5f3-3b3b-443b-8549-aa40a9a9f560)
+Categorias e seus produtos
 ![imagem3 0](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/b7bf7d9d-41d3-45f9-8bad-484570920fd8)
 ![imagem3 1](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/f586709a-17bd-4005-b655-5bd2389272fa)
 
