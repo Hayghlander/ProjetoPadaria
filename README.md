@@ -13,7 +13,6 @@ como filas longas e o cliente ter que se deslocar até a padaria para comprar.
 
 ![imagem1](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/cb2209a3-9980-4348-ab71-00d85dc7699e)
 ![imagem2](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/e11fa196-e28b-4dc4-91e1-220cf7d122b7)
-![imagem3 2](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/3e56329c-23d7-4f74-b8f8-1fa8a58b38a7)
 ![imagem3](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/553925b7-0419-4f9c-8d98-a9449cc92c55)
 ![imagem4](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/39716ba9-09f8-4b37-87f4-26424ad57b4d)
 ![imagem5](https://github.com/Hayghlander/ProjetoPadaria/assets/113555075/2b1593bf-ece1-40e7-b5d6-e461135ce7b4)
