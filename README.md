@@ -1,6 +1,6 @@
 # ProjetoPadaria
 
-Projeto final da matéria de construção de beckend no meu curso de ADS, feito em Django, e boostrap.
+Projeto final da matéria de construção de beckend no meu curso de Analise e desenvolvimento de sistemas.
 
 https://github.com/Hayghlander/ProjetoPadaria/blob/main/LICENSE
 
